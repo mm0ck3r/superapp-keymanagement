@@ -23,6 +23,8 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    implementation ('de.mkammerer:argon2-jvm:2.11')
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
